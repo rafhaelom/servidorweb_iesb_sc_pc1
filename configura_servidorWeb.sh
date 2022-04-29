@@ -32,7 +32,7 @@ apt-get install -y zip unzip
 echo
 
 #PASSO 06
-echo "----- [PASSO 06] Descompactar arquivo .zip -----"
+echo "----- [PASSO 06] Descompactando arquivo .zip -----"
 unzip 690e1f604dc8ead2583589e1aee6f8a42040a035.zip
 echo
 
@@ -53,12 +53,12 @@ rm index.html
 echo
 
 #PASSO 10
-echo "----- [PASSO 10] Renomea o arquivo (cv-resumido.html) -----"
+echo "----- [PASSO 10] Renomeando o arquivo (cv-resumido.html para index.html) -----"
 mv cv-resumido.html index.html
 echo
 
 #PASSO 11
-echo "----- [PASSO 11] Iniciar servidor web Apache -----"
+echo "----- [PASSO 11] Iniciando servidor web Apache -----"
 /etc/init.d/apache2 start
 echo
 
